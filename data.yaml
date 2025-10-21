@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['biru', 'hijau', 'kuning', 'merah']
+
+roboflow:
+  workspace: umurpadi
+  project: sortir-warna-box
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/umurpadi/sortir-warna-box/dataset/1
